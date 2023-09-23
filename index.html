@@ -61,25 +61,24 @@
 
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                        <li><span>Web Developer</span><br>Designing Web/App interface</li>
-                        <li><span>Web Developer</span><br>Designing Website</li>
-                        <li><span>Others</span><br>Problem solving ,Critcial thinking, <br>Technial support Team collaboration, <br>Mirosoft package ,Graphic design</li>
+                        <li><span>Website Design</span><br>Html,CSS, Java Scripts, Bootsrap and modern frameworks.</li>
+                        <li>Graphic design<</li>
+                        <li><span>Others</span><br>Technial support ,Team collaboration, Problem solving ,Critcial thinking, <br> Mirosoft package ,/li>
                     </ul>
                     </div>
 
                     <div class="tab-contents" id="experience">
                         <ul>
-                        <li><span>Front-end Development</span><br>Proficient in HTML, CSS, JavaScript, Bootsrap and modern frameworks.</li>
                         <li><span>2023</span><br>web developer training at Hiit Training institute</li>
+                             <li><span>2021-2022</span><br>ICT Instructor <br> Odo - Otin Grammer School, Osun State</li>
                         <li><span>2019- 2021</span><br>Maintainance Officer 2 <br>Lobus Nigeria  Limited ,  Otta,  Ogun State.</li>
-                        <li><span>2021-2022</span><br>ICT Instructor <br> Odo - Otin Grammer School, Osun State</li>
                         <li><span>05/2018 – 11/ 2018</span><br>System Administrator <br>Bureau Of Information Technology  (ICT), Abeokuta,Ogun state.</li>
                     </ul>
                     </div>
 
                     <div class="tab-contents" id="education">
                         <ul>
-                        <li><span>2023</span><br>Front-end Development<br>Hiit Training institute</li>
+                        <li><span>2023</span><br>Front-end Development<br>Hiit Training Institute</li>
                         <li><span>2015-2020</span><br>	Bachelor Of Science In Computer Science<br>
                             Olabisi Onabanajo University, Ago Iwoye, Ogun State </li>
                         <li><span>2010-2013</span><br>Eko Emmaculate High School, Lagos. </li>
@@ -186,11 +185,11 @@
                             <a href="https://www.instagram.com/orlameede" target="blank"><i class="fa-brands fa-instagram"></i></i></a>
                             <a href="https://www.linkedin.com/in/meedeycodes"   target="blank><i class="fa-brands fa-linkedin"></i></a>
                         </div>
-                        <a href="olamide Resumme R.pdf" download class=" btn2">Download Cv</a>
+                        <a href="Olamide Resumee 2.pdf" download class=" btn2">Download Cv</a>
                         </div>
     
                         <div class="contact-right">
-                            <form  name="submit-to-google-sheet">
+                             <form  action="https://formspree.io/f/moqokypk"  method="POST">
                                 </strong>
                                 <input type="text" name="Name" placeholder="Name" required>
                                 <input type="email" name="Email" placeholder="Email" required>
@@ -234,25 +233,6 @@
         function hideMenu(){
             navLinks.style.right = "-200px";
         }
-
     </script>
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbwHsjs0ZZftuPkPV5H-GUkcA_o6gJIOwY5XyxVJUqhAIiwnxVvKy1eEajeD49vQrG8AJg/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg")
-      
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => {
-            msg.innerHTML = "Message sent successfully"
-            setTimeout(function(){
-                msg.innerHTML = ""
-            },5000)
-            form.reset()
-        })
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
 </body>
 </html>
